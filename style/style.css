@@ -1,0 +1,36 @@
+.section-hero{
+    /* background-color: var(--purple-bg); */
+}
+
+#video-bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.img{
+    width: 50%;
+}
+.hidden{
+    visibility: hidden;
+}
+
+/* ABOUT US SECTION */
+.section-about-us,
+.section-mission-vision{
+    background-color: var(--purple-bg);
+    padding: 2.4rem;
+}
+
+.card{
+    border-radius: 0.6rem;
+    border: 1px solid white;
+    padding: 2rem 2.5rem;
+    background-color: var(--purple-bg);
+}
+
+.card-rev{
+    text-align: right;
+}
