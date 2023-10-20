@@ -70,17 +70,23 @@ p{
     margin-bottom: 1rem;
 }
 
+.margin-top-1{
+    margin-top: 7rem;
+}
+
 .hero-heading-div{
     padding: 20rem 1rem;
     text-align: center;
 }
+/* GRID */
 .grid{
     display: grid;
     gap: 1rem;
+    
 }
 
 .grid-column-3{
-    grid-template-rows: repeat(3,1fr) ;
+    grid-template-columns: repeat(3,1fr) ;
 }
 
 .grid-column-span-3{
