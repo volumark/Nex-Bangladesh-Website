@@ -19,7 +19,8 @@
 
 /* ABOUT US SECTION */
 .section-about-us,
-.section-mission-vision{
+.section-mission-vision,
+.section-project{
     background-color: var(--purple-bg);
     padding: 2.4rem;
 }
@@ -34,3 +35,6 @@
 .card-rev{
     text-align: right;
 }
+
+/* Project Section */
+.section-project{}

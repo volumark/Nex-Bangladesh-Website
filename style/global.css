@@ -74,4 +74,15 @@ p{
     padding: 20rem 1rem;
     text-align: center;
 }
+.grid{
+    display: grid;
+    gap: 1rem;
+}
 
+.grid-column-3{
+    grid-template-rows: repeat(3,1fr) ;
+}
+
+.grid-column-span-3{
+    grid-column: span 3;
+}
