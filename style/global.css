@@ -1,23 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;0,900;1,500;1,900&display=swap');
 
+:root{
+    --purple: #240B2D ;
+    --yellow: #D58600;
+    --white: #EEEEEE;
+    --black: #0f0f0f;
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
-.hidden{
-    visibility: hidden;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: var(--black);
+    background-color: var(--white);
 }
-.grid{
-    display: grid;
-    gap: 1rem;
+
+h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.section{
+    padding-top: 8rem;
+}
+
+.color-primary{
+    color: var(--yellow);
+}
+
+.color-secondary{
+    color: var(--purple);
+}
+
+.margin-bot-1{
+margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width:495px) {
+    h1{
+        font-size: 1.4rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+    .margin-bot-1{
+        margin-bottom: 0.5rem;
+        }
+
     
-}
+  }
 
-.grid-column-3{
-    grid-template-columns: repeat(3,1fr) ;
-}
-
-.grid-column-span-3{
-    grid-column: span 3;
-}
+  @media screen and (max-width:1150px) and (min-width:500px) {
+    h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1rem;
+    }
+  
+  }
+  
