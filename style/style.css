@@ -11,10 +11,11 @@
 /* HERO HEADER */
 
 .section-hero{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     background: url('/res/images/Background.png') center/cover no-repeat;
+    padding-bottom: 3rem;
 }
 
 .section-hero h1,
