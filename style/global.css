@@ -69,9 +69,18 @@ p{
 .margin-bot-1{
 margin-bottom: 1rem;
 }
-
-
-
+.margin-top-1{
+    margin-top: 1rem;
+}
+.color-about-us{
+        color: rgb(119, 223, 223);
+}
+.text-color{
+    color: var(--white);
+}
+.text-bold{
+    font-weight: 700;
+}
 @media screen and (max-width:495px) {
     h1{
         font-size: 1.4rem;

@@ -1,13 +1,21 @@
 /* NAVIGATION BAR */
 .navigation-bar{
+  display: flex;
   background-color: var(--white);
   padding: 0.9rem;
-  text-align: center;
+  /* text-align: center; */
 }
 .nav-logo{
-  width: 9rem;
+   width: 9rem;
+   margin-left: 150px;
+  
 }
-
+.nav-icon{
+  margin: 25px 40px 20px 1200px;
+}
+.icon{
+  margin-right: 20px;
+}
 /* HERO HEADER */
 
 .section-hero{
@@ -27,6 +35,12 @@
 }
 
 /* ABOUT US */
+.section-about-us{
+  color:var(--white);
+  background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+  
+}
 .border-top{
   margin: 0 auto;
   width: 10rem;
@@ -34,6 +48,7 @@
 }
 
 .company-overview{
+  color:var(--white);
   margin-top: 3rem;
   display: flex;
   gap: 2rem;
@@ -41,6 +56,7 @@
 }
 
 .overview-text{
+  color:var(--white);
   width: 50%;
 }
 
@@ -68,7 +84,7 @@
 }
 
 .social-media-link p{
-  color:var(--black);
+  color:var(--white);
 }
 .social-media-link p:hover{
   color:var(--yellow);
@@ -80,6 +96,7 @@
 .mission-vision{
   display: flex;
   gap: 2rem;
+
 }
 
 .vision{
@@ -87,7 +104,11 @@
   text-align: right;
 }
 
+
 /* PROJECT */
+.section-project{
+  background: url('/res/images/Background.png') center/cover no-repeat;
+}
 .project-card{
   margin-top: 3rem;
   display: flex;
@@ -107,7 +128,7 @@
 }
 
 .project-gallery{
-  margin: 5rem 0;
+  margin: 5rem 0 0 0;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   max-width: 120rem;
@@ -129,14 +150,12 @@
 }
 
 /* SLIDER */
+
 /* CONTACT */
 .section-contact{
   height: 50vh;
-  background: url('/res/images/Background.png') center/cover no-repeat;
+  background-color: #160c1aef;
 }
-
-
-
 .container-contact{
   display: flex;
   flex-direction: column;
@@ -156,10 +175,17 @@
 }
 
 /* Footer */
+.section-footer{
+  background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
 .footer-info{
   padding: 4rem;
   text-align: center;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
+}
+.footer-logo{
+  margin-bottom: 20px;
 }
 
 .made-by{
@@ -174,18 +200,28 @@
   padding: 1rem;
   text-align: center;
 }
-
+.foot-soc{
+  margin-left: 450px;
+}
+.contact-text{
+  margin-bottom: 10px;
+}
 
 @media screen and (max-width:495px) {
   
 
   /* Navigation */
   .nav-logo{
-    width: 7rem;
+    margin: 0;
   }
-
+  .nav-icon{
+    margin: 25px 0 25px 140px;
+  }
   .width-50-p{
     width: 100%;
+  }
+  .section-hero{
+     height: 55vh;
   }
   /* ABOUT US */
   .company-overview{
@@ -230,6 +266,9 @@
     text-align: center;
   }
   /* CONTACT US SECTION */
+  .contact-us-logo{
+    margin-top: 0;
+  }
   .section-contact{
     padding: 5rem 0;
   }
@@ -238,6 +277,16 @@
     margin-top: 3rem;
     flex-direction: column;
     gap: 2rem;
+  }
+  .footer-info{
+    padding: 0;
+    margin-bottom: 4rem;
+  }
+  .social-media-link{
+    margin: 10px 0px 0 0;
+  }
+  .extended-footer-info{
+    padding: 0;
   }
 
 }
