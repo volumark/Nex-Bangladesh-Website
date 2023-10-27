@@ -1,7 +1,8 @@
 .logo-slider{
     background-color: #923cb5;
     background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
-}.slide img {
+}
+.slide img {
     width: 200px;
     height: 200px;
     animation: scroll 60s linear infinite;
