@@ -49,8 +49,9 @@
   }
   
   .project_item_title {
+    text-align: center;
     min-height: 87px;
-    margin: 0 0 5px;
+    margin: 0;
     overflow: hidden;
     font-weight: bold;
     font-size: 30px;
@@ -64,6 +65,7 @@
     color: #FFF;
     z-index: 2;
     position: relative;
+    text-align: center;
   }
   
   .project_item_bg {
