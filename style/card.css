@@ -1,0 +1,89 @@
+.project-container {
+    width: 1142px;
+    margin: 0 auto;
+  }
+  
+  body {
+    background-color: #000;
+  }
+  
+  .project-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+  
+  .project_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+    margin: 0 15px 30px;
+    overflow: hidden;
+    border-radius: 28px;
+    display: block;
+    padding: 30px 20px;
+    background-color: #791d9df0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .project_item:hover,
+  .project_item:hover .ag-courses-item_date {
+    text-decoration: none; /* Remove the underline on hover */
+    color: #FFF;
+  }
+  
+  .project_item_link {
+    text-decoration: none; /* Remove the underline */
+  }
+  
+  .project_item_link:hover .project_item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+  
+  .project_item_title {
+    min-height: 87px;
+    margin: 0 0 5px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .project_item_date-box {
+    font-size: 18px;
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .project_item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #f9b234;
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+
+  @media screen and (max-width:495px){
+    .project-box{
+        flex-direction: column;
+         width: 20rem;
+        margin: 0 auto;
+    }
+  }
