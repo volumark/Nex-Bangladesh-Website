@@ -279,7 +279,7 @@
   height: 400px !important;
 }
 
-@media screen and (max-width:495px) {
+@media screen and (max-width:600px) {
 
 
   /* Navigation */
@@ -291,7 +291,7 @@
   }
 
   .nav-icon {
-    margin: 25px 0 25px 140px;
+    margin: 25px 0 25px 120px;
   }
 
   .width-50-p {
@@ -395,8 +395,131 @@
   }
 
 }
+@media screen and (max-width:768px) and (min-width:601px){
+  .section{
+    padding-top: 4rem;
+  }
+  .project-card {
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+  .nav-logo{
+    margin-left: 100px;
+  }
+  .nav-icon {
+    margin: 25px 0 25px 400px;
+  }
+  .banner-des{
+    margin-left: 10rem;
+  }
+  .about-us-container{
+    max-width: 767px;
+  }
+  .company-overview{
+    display: flex;
+    margin: auto;
+  }
+  .company-overview p{
+    font-size: 1.1rem;
+  }
+  .overview-text{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .about-us-logo {
+    width: 320px;
+  }
+  .mission-vision{
+    margin-top: 0;
+    gap: 0;
+  }
+  .mission{
+    margin-left: 4rem;
+  }
 
-@media screen and (max-width:1150px) and (min-width:500px) {
+  .footer-info {
+    padding: 0;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+  .foot-soc{
+    margin-left: 8rem;
+  }
+  .socials {
+    margin-top: 8rem;
+    margin-bottom: 0;
+  }
+  /* .foot-soc{
+    margin-left: 8rem;
+  } */
+  .gmap_canvas{
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+  .nav-logo {
+    margin-left: 40;
+  }
+  .banner-des{
+    margin-left: 10rem;
+  }
+
+  .nav-icon {
+    margin: 25px 0px 0px 300px;
+  }
+  .company-overview{
+    gap: 1rem;
+  }
+  .mission{
+    margin-left: 2rem;
+  }
+  .company-overview p{
+    font-size: 1.1rem;
+  }
+  .overview-text{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .about-us-logo {
+    width: 320px;
+  }
+  .foot-soc{
+    margin-left: 8rem;
+  }
+  .gmap_canvas{
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width:1600px) and (min-width:1151px){
+  
+  .nav-logo {
+    margin-left: 40;
+  }
+
+  .nav-icon {
+    margin: 25px 0px 0px 1000px;
+  }
+  .company-overview{
+    justify-content: center;
+  }
+  .mission-vision{
+    gap: 0;
+  }
+  .mission{
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width:1150px) and (min-width:993px) {
 
   .project-card {
     margin-top: 3rem;
@@ -429,7 +552,7 @@
 
 }
 
-@media screen and (max-width:1600px) and (min-width:1151px){
+/* @media screen and (max-width:1600px) and (min-width:1151px){
   
   .nav-logo {
     margin-left: 40;
@@ -447,4 +570,4 @@
   .mission{
     margin-left: 6rem;
   }
-}
+} */
