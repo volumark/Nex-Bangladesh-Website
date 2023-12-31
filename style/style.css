@@ -178,6 +178,37 @@
   align-self: center;
   width: 100%
 }
+/* Studays */
+.studays-section{
+  background: url('/res/images/Background.png') center/cover no-repeat;
+  
+}
+.studay-container{
+  display: flex;
+  max-width: 1500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+.stuinfo-div{
+  
+  padding-top: 2rem;
+  
+}
+.studays-title{
+  text-align: center;
+  color: var(--white);
+  font-size: 40px;
+  color: white;
+  
+}
+
+.studays-des{
+  color: var(--white);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  
+}
 
 /* CONTACT */
 .section-contact {
@@ -326,7 +357,7 @@
     gap: 2rem;
 
   }
-
+  
   .social {
     justify-content: center;
   }
@@ -378,7 +409,30 @@
     padding: 0;
     margin-top: 1rem;
   }
+  .studay-container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+ 
+  }
+  .stu-img{
+    width: 300px;
+    padding-left: 7rem;
+  }
 
+  .studays-title{
+    font-size: 25px;
+    
+  }
+  
+  .studays-des{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+  }
   /* Map */
   .mapouter {
     width: auto;
@@ -471,6 +525,31 @@
   }
 }
 
+/* Studays */
+.studay-container{
+  max-width: auto;
+  display: flex;
+  height: auto;
+
+}
+.stu-img{
+  width: 300px;
+  padding-top: 6rem;
+}
+
+.studays-title{
+  font-size: 25px;
+  
+}
+
+.studays-des{
+  font-size: 15px;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  
+}
+
 @media screen and (max-width:992px) and (min-width:769px) {
   .nav-logo {
     margin-left: 40;
@@ -516,6 +595,30 @@
     margin-left: 2rem;
     margin-right: 1rem;
   }
+  /* Studays */
+.studay-container{
+  max-width: auto;
+  display: flex;
+  height: auto;
+
+}
+.stu-img{
+  width: 300px;
+  padding-top: 6rem;
+}
+
+.studays-title{
+  font-size: 25px;
+  
+}
+
+.studays-des{
+  font-size: 15px;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  
+}
 }
 
 @media screen and (max-width:1600px) and (min-width:1151px) {
@@ -537,6 +640,20 @@
 
   .mission {
     margin-left: 6rem;
+  }
+ 
+
+  .studays-title{
+    padding-top: 2rem;
+    font-size: 30px;
+  
+  }
+ 
+  .studays-des{
+    font-size: 22px;
+    padding-left: 2rem;
+    text-align: center;
+    
   }
 }
 
